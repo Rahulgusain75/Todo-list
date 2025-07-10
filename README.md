@@ -9,7 +9,6 @@ A simple and responsive To-Do List application built using **React** and **Vite*
 - ✅ Add new tasks
 - 🔁 Mark tasks as completed or uncompleted
 - 🗑️ Delete tasks
-- 🌙 Light & Dark mode support (optional)
 - 💾 Local storage support to save tasks
 - ⚡ Fast build and dev server with Vite
 
