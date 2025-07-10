@@ -1,0 +1,79 @@
+.app{
+  background-image: url(./images/bg3.jpg);
+  width: 100%;
+  margin-top: 0%;
+  height:1170px;
+}
+
+h1{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+  color:blueviolet;
+
+}
+
+.head{
+  padding-top: 40px;
+}
+.head2{
+  text-align: center;
+  color: aliceblue;
+  font-size: 40px;
+}
+
+
+form {
+  align-items: center;
+  display: flex;
+  width: 1120px;
+  margin: auto;
+  padding: 10px;
+  font-size: 25px;
+
+}
+form input{
+  flex-basis: 80%;
+  font-size: 20px;
+  border-radius: 5px;
+}
+
+form button{
+  flex-basis: 20%;
+  font-size: 20px;
+  cursor: pointer;
+  background: gray;
+  border-radius: 5px;
+}
+
+.outerdiv{
+  width: 1120px;
+  margin: auto;
+  
+}
+.outerdiv ul{
+  margin: 0;
+  margin-top: 50px;
+  padding: 0;
+  list-style: none;
+}
+.outerdiv ul li{
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: left;
+  background: black;
+}
+.outerdiv ul li span{
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+}
+
+.completetodo{
+  text-decoration: line-through;
+  background: yellow !important;
+  color: red !important;
+}
